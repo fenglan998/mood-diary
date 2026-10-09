@@ -1,0 +1,10 @@
+package com.project.service;
+
+import com.project.model.DailyQuote;
+import com.project.util.Result;
+
+public interface DailyQuoteService {
+    Result<DailyQuote> getRandomQuote();
+    Result<DailyQuote> getRandomQuoteForUser(Long userId);
+    Result<DailyQuote> getManualRandomQuoteForUser(Long userId);
+} 
