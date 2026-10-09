@@ -24,6 +24,7 @@ deepseek.pem
 src/main/resources/uploads/
 uploads/
 
+src/main/resources/application_local.yml
 # ========================
 # 临时文件
 # ========================

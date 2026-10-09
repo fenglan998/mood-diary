@@ -36,9 +36,9 @@ logging:
     com.project: debug
 
 wx:
-  appId: wx7a9c9b748a323e58
-  appSecret: 95c143988801447734046ba89a34eb01
+  appId: ${WX_APP_ID}
+  appSecret: ${WX_APP_SECRET}
 
 deepseek:
   api-url: https://api.deepseek.com/v1/chat/completions
-  api-key: sk-92d68b33753d4ab88721f7abbe4713fa
+  api-key: ${DEEPSEEK_API_KEY}
